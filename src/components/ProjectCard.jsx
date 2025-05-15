@@ -2,7 +2,12 @@ export default function ProjectCard({ project }) {
     const { title, description, tech, repo, live, image } = project;
   
     return (
-      <article className="bg-slate-800 rounded-xl overflow-hidden shadow-lg transition hover:-translate-y-1 hover:shadow-purple-700/40">
+      <article className= " relative group bg-slate-800 rounded-xl overflow-hidden shadow-lg transition hover:-translate-y-1">
+
+        <span 
+            className= "pointer-events-none absolute inset-0 rounded-x1 opacity-0 group-hover:opacity-100 transition bg-accent/20 blur2x1" 
+            />
+        
         <img
           src={image}
           alt={title + " screenshot"}
