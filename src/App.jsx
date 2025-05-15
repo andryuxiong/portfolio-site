@@ -1,6 +1,7 @@
 import Experience from "./components/Experience.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
 
 export default function App() {
   return (
@@ -23,8 +24,12 @@ export default function App() {
 
       {/* Experience */}
       <Experience />
+
       {/* PROJECTS */}
       <Projects />
+      
+      {/* CONTACT */}
+      <Contact />
     </>
   );
 }
