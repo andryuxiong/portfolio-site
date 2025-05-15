@@ -7,7 +7,7 @@ export default [
       tech: ["React", "Spring Boot", "OpenAI API", "Tailwind"],
       repo: "https://github.com/andryuxiong/ai-medicare",
       live: "https://ai-medicare.vercel.app",
-      image: "/assets/ai-medicare.png", // put a placeholder in public/assets later
+      image: "assets/ai-medicare.png", // put a placeholder in public/assets later
     },
     {
       title: "SolarWinds Hack Analysis", // test project will change later
@@ -16,7 +16,7 @@ export default [
       tech: ["Python", "Plotly", "Pandas"],
       repo: "https://github.com/andryuxiong/solarwinds-analysis",
       live: "",
-      image: "/assets/solarwinds.png",
+      image: "assets/solarwinds.png",
     },
     // add more objects here anytime 
   ];
