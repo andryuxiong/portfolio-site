@@ -1,8 +1,13 @@
 import Experience from "./components/Experience.jsx";
+import Navbar from "./components/Navbar.jsx";
+
 export default function App() {
   return (
     <>
+      <Navbar /> {/* NEW */}
+      
       {/* Hero */}
+      <main className="pt-20 min-h-screen flex flex-col ..."></main>
       <main className="min-h-screen flex flex-col items-center justify-center bg-slate-900 text-white">
         <h1 className="text-5xl font-bold mb-4">Andrew Xiong</h1>
         <p className="text-lg mb-8">Computer Science student &amp; aspiring Software Engineer</p>
