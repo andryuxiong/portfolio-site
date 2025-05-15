@@ -16,7 +16,7 @@ export default function Contact() {
     },
     {
       label: "LinkedIn",
-      href: "https://linkedin.com/in/andryuxiong",
+      href: "https://www.linkedin.com/in/andrew-xiong02/",
       icon: <FaLinkedin />,
     },
   ];
@@ -27,9 +27,8 @@ export default function Contact() {
         {contacts.map(({ label, href, icon }) => (
           <li key={label}>
             <a
-              aria-label="Send email"
-                 href="mailto:andryu@example.com"
-              
+              aria-label={label}        // screen render reads the correct context, ie. github or linkedin
+              href={href}               // pulls the correct url from each object
               target="_blank"
               className="flex items-center space-x-3 text-slate-300 hover:text-purple-400 transition-colors"
             >
